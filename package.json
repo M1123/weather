@@ -1,0 +1,26 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1123/weather.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "M1123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M1123/weather/issues"
+  },
+  "homepage": "https://github.com/M1123/weather#readme",
+  "dependencies": {
+    "apixu": "github:apixu/apixu-nodejs#master",
+    "express": "^4.17.1"
+  }
+}
