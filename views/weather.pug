@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  .card
+    h3 #{d.current.observationpoint},#{d.current.observationtime}
+    p #{d.current.day},#{d.current.date}
+    h1 #{d.current.temperature} &#8451;
+    h2 #{d.current.skytext} 
+    img(src="http://blob.weather.microsoft.com/static/weather4/en-us/law/4.gif", alt="")
+    p #{d.current.winddisplay} | #{d.current.humidity} 

@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+.wrapper{
+  display:flex;
+}
+.card{
+  /* font-size: 1.5em; */
+  width: 200px;
+  background-color: #00B7FF;
+  flex-grow: 0;
+  padding: 25px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
